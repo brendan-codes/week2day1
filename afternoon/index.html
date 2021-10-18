@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="window">
+    <h1 id="title">Hello world!</h1>
+
+    <button onclick="updateTitle(this)">This button does things!</button>
+
+    <hr>
+    <input id="nameField" type="text">
+    <button onclick="submitName()">Say your name!</button>
+    <hr>
+    <input id="checkbox" type="checkbox">
+    <button onclick="checkCheckbox()">What is in the checkbox??</button>
+    <hr>
+    <img
+        id="cat"
+        class="cat-img"
+        onmouseover="over()"
+        onmouseleave="leave()"
+        src="http://placekitten.com/300/300"
+        alt=""
+    >
+</body>
+<script src="script.js"></script>
+</html>
